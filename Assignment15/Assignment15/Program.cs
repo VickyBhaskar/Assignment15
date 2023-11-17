@@ -96,7 +96,7 @@ public class SortingAndSearching
         Console.WriteLine($"\nIs the array sorted correctly? {IsSorted(arrayToSort)}");
 
         // Binary Search example
-        int targetValue = arrayToSort[3]; // Choose a value from the sorted array
+        int targetValue = arrayToSort[3]; 
         int index = BinarySearch(arrayToSort, targetValue);
 
         Console.WriteLine($"\nBinary Search Result: Target value {targetValue} found at index {index}");
